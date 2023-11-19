@@ -36,6 +36,23 @@ public class Java01 {
                 arr2D[row][col]=input.nextInt();
             }
         }
-        
+
+        //output
+        for (int row = 0; row < arr2D.length; row++) {
+            for (int col = 0; col < arr2D[row].length; col++) {
+                System.out.print(arr2D[row][col]+" ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("---Enhanced ForLoop---");
+        System.out.println("---1---");
+        for (int row = 0; row < arr2D.length; row++) {
+            System.out.println(Arrays.toString(arr2D[row]));
+        }
+        System.out.println("---2---");
+        for (int[] is : arr2D) {
+            System.out.println(Arrays.toString(is));
+        }
     }
 }
