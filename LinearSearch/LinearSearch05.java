@@ -7,16 +7,25 @@ public class LinearSearch05 {
 
         System.out.println("---Linear search---");
         linearSearch(arr, key);
+
+        int ans = linearSearch(arr, key);
+        System.out.println(ans);
     }
 
-    static void linearSearch(int arr[], int key) {
+    static int linearSearch(int arr[], int key) {
+        if (arr.length == 0) {
+            return -1;
+        }
+
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key) {
                 System.out.println("Key Found at index " + i);
-                break;
-            } 
-            
+                return i;
+
+            }
+
         }
+        return -1;
     }
 
 }
