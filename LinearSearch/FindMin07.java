@@ -1,6 +1,6 @@
 package LinearSearch;
 
-public class FindMin {
+public class FindMin07 {
     public static void main(String[] args) {
         int[] arr = { 12, 34, 53, 11, -45, 67, -4, 90, 13 };
 

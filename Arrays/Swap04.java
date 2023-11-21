@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Java04 {
+public class Swap04 {
     public static void main(String[] args) {
         int[] arr = { 10, 43, 46, 100, 8, 88 };
 

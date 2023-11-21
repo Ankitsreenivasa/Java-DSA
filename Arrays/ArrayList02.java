@@ -3,7 +3,7 @@ package Arrays;
 import java.util.*;
 // import java.util.ArrayList;
 
-public class Java02 {
+public class ArrayList02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

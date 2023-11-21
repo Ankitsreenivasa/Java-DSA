@@ -3,7 +3,7 @@ package Arrays;
 import java.util.*;
 
 //Swapping Elements
-public class Java03 {
+public class ArraySwap03 {
     public static void main(String[] args) {
         int[] arr = { 12, 434, 46, 76, 8, 88, 112 };
         // Swapping Elements
