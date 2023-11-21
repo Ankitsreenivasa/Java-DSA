@@ -43,5 +43,6 @@ public class ArrayList02 {
             System.out.println(list1.get(i));
         }
 
+        sc.close();
     }
 }

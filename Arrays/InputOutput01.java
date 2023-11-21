@@ -54,5 +54,7 @@ public class InputOutput01 {
         for (int[] is : arr2D) {
             System.out.println(Arrays.toString(is));
         }
+
+        input.close();
     }
 }
