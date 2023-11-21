@@ -1,9 +1,9 @@
 package LinearSearch;
 
-public class SearchInStrings {
+public class SearchInStrings06 {
     public static void main(String[] args) {
         String str = "Fortunex";
-        char key = 'x';
+        char key = 'F';
         System.out.println(stringSearch(str, key));
 
         // In Range
