@@ -5,17 +5,19 @@ import java.util.*;
 public class EvenNoOfDigits {
 
     public static void main(String[] args) {
-        int[] nums = { 7, 43, 230, 640993, 65, 321 };
+        int[] nums = { 7, 43, -2030, 640993, 65, 321 };
 
+        System.out.println(findNumbers(nums));
     }
 
-    static int findNum(int[] nums) {
+    static int findNumbers(int[] nums) {
         int count = 0;
 
-        for (int i = 0; i < nums.length; i++) {
-            if (even(i)) {
+        for (int num : nums) {
+            if (even(num)) {
                 count++;
             }
+
         }
 
         return count;
@@ -23,8 +25,8 @@ public class EvenNoOfDigits {
     }
 
     // To check a no. contains even no. of digits
-    static boolean even(int i) {
-        int numOfDigits = countDigits(i);
+    static boolean even(int num) {
+        int numOfDigits = countDigits(num);
 
         if (numOfDigits % 2 == 0) {
             return true;
@@ -36,6 +38,15 @@ public class EvenNoOfDigits {
     // count no. of digits in a no.
     static int countDigits(int num) {
         int count = 0;
+
+        if (num < 0) {
+            num = num * -1;
+        }
+
+        if (num == 0) {
+            return 1;
+
+        }
 
         while (num > 0) {
             count++;
