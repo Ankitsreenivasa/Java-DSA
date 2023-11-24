@@ -2,7 +2,7 @@ package LinearSearch;
 
 import java.util.*;
 
-public class EvenNoOfDigits {
+public class EvenNoOfDigits10 {
 
     public static void main(String[] args) {
         int[] nums = { 7, 43, -2030, 640993, 65, 321 };
