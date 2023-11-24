@@ -1,6 +1,6 @@
 package LinearSearch;
 
-public class SearchIn2DArray {
+public class SearchIn2DArray08 {
     public static void main(String[] args) {
         int[][] arr2D = {
                 { 21, 4, 17 },
