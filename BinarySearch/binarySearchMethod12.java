@@ -2,7 +2,7 @@ package BinarySearch;
 
 import java.util.Arrays;
 
-public class binarySearchMethod {
+public class binarySearchMethod12 {
     public static void main(String[] args) {
         // UnSorted Array
         int[] arr = { 56, 66, 11, 12, 13, 10, 45, 23, 34, };
