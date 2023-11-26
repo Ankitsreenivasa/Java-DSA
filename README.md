@@ -1,4 +1,4 @@
-# Arrays, Linear Search, and Binary Search in Java
+# DSA in Java
 
 This repository contains Java implementations and explanations of basic concepts related to arrays, linear search, and binary search algorithms.
 
