@@ -1,48 +1,50 @@
-# Data Structures and Algorithms in Java
+# Arrays, Linear Search, and Binary Search in Java
 
-This repository contains implementations of common data structures and algorithms in Java.
+This repository contains Java implementations and explanations of basic concepts related to arrays, linear search, and binary search algorithms.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Data Structures](#data-structures)
-- [Algorithms](#algorithms)
+- [Array Operations](#array-operations)
+- [Linear Search](#linear-search)
+- [Binary Search](#binary-search)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
-This repository aims to provide Java implementations of various data structures and algorithms commonly used in computer science and software development. Understanding these fundamental concepts is crucial for building efficient and scalable solutions.
+This repository serves as an educational resource for understanding arrays and two fundamental searching algorithms: Linear Search and Binary Search. The implementations are provided in Java, along with explanations and examples.
 
-## Data Structures
+## Array Operations
 
-The implemented data structures include:
-- Arrays
-- Linked List
-- Stack
-- Queue
-- Binary Tree
-- Binary Search Tree
-- Hash Table
-- Graph
-- ...
+The repository includes various operations and functionalities related to arrays, such as:
+- Array creation and manipulation
+- Array traversal and printing
+- Basic array algorithms
 
-Each data structure includes relevant methods and functionalities.
+Each array operation is accompanied by code examples and explanations.
 
-## Algorithms
+## Linear Search
 
-The repository covers various algorithms, such as:
-- Sorting Algorithms (Bubble Sort, Quick Sort, Merge Sort, etc.)
-- Searching Algorithms (Linear Search, Binary Search, etc.)
-- Graph Algorithms (BFS, DFS, Dijkstra's Algorithm, etc.)
-- Dynamic Programming
-- ...
+Linear Search, also known as sequential search, is a simple searching algorithm. It traverses the array sequentially to find the target element.
 
-The algorithms are implemented with explanations and complexities where applicable.
+Implementation of Linear Search includes:
+- Linear Search algorithm in Java
+- Explanation of its working
+- Example usage scenarios
+
+## Binary Search
+
+Binary Search is an efficient searching algorithm for sorted arrays. It repeatedly divides the search interval in half to locate the target element.
+
+Implementation of Binary Search includes:
+- Binary Search algorithm in Java
+- Explanation of its working and efficiency
+- Example usage scenarios
 
 ## Usage
 
 You can clone this repository to your local machine using:
 
-git clone https://github.com/your-username/data-structures-and-algorithms-java.git
+git clone https://github.com/ankitsreenivasa/java-dsa.git
