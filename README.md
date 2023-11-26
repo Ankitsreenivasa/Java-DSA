@@ -8,9 +8,6 @@ This repository contains Java implementations and explanations of basic concepts
 - [Array Operations](#array-operations)
 - [Linear Search](#linear-search)
 - [Binary Search](#binary-search)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
