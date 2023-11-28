@@ -14,7 +14,7 @@ public class ValidPerfectSquare14 {
 
     public static boolean isPerfectSquare(int num) {
         int i = 1;
-        // Keep iterating loop check perfectsquare and limit in the condition
+        // Keep iterating loop check perfectsquare and limit in the condition.
         while (i * i != num && i * i < num && i < num) {
             i++;
         }
