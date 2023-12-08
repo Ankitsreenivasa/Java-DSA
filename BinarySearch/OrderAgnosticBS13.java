@@ -55,7 +55,7 @@ public class OrderAgnosticBS13 {
             } else {
                 return mid;
             }
-
+            
         }
 
         return -1;
