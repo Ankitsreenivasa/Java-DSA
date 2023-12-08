@@ -1,7 +1,5 @@
 package LinearSearch;
 
-import java.util.*;
-
 public class EvenNoOfDigits10 {
 
     public static void main(String[] args) {
