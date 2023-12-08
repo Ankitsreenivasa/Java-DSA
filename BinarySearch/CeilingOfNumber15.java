@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class CeilingOfNumber {
+public class CeilingOfNumber15 {
     public static void main(String[] args) {
         int[] arr = { 10, 11, 12, 13, 23, 34, 45, 56, 66 };
         int key = 44;
