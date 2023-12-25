@@ -12,7 +12,8 @@ public class MaxWealth09 {
     }
 
     static int maximumWealth(int[][] accounts) {
-        //Integer.MIN_VALUE is a constant in Java that represents the smallest possible value that can be stored in an int variable
+        // Integer.MIN_VALUE is a constant in Java that represents the smallest possible
+        // value that can be stored in an int variable
         int max = Integer.MIN_VALUE;
         for (int customer = 0; customer < accounts.length; customer++) {
             int sum = 0;

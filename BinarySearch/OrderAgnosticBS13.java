@@ -2,22 +2,20 @@ package BinarySearch;
 
 public class OrderAgnosticBS13 {
     public static void main(String[] args) {
-        int arr[] = {9,8,7,6,5,4,3,2,1};
+        int arr[] = { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
 
-        int key=3;
+        int key = 3;
 
         orderAgnosticBinarySearch(arr, key);
     }
 
-    static void orderAgnosticBinarySearch(int arr[], int key){
-        if (arr[0]<arr[arr.length-1]) {
+    static void orderAgnosticBinarySearch(int arr[], int key) {
+        if (arr[0] < arr[arr.length - 1]) {
             System.out.println(ascOrder(arr, key));
+        } else {
+            System.out.println(descOrder(arr, key));
         }
-        else{
-            System.out.println(descOrder(arr,key));
-        }
-        
-        
+
     }
 
     private static int ascOrder(int arr[], int key) {
@@ -55,15 +53,11 @@ public class OrderAgnosticBS13 {
             } else {
                 return mid;
             }
-            
+
         }
 
         return -1;
 
     }
 
-    
 }
-
-
-

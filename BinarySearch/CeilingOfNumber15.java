@@ -7,7 +7,7 @@ public class CeilingOfNumber15 {
 
         int index = BinarySearch(arr, key);
 
-        System.out.println("Ceiling : "+index);
+        System.out.println("Ceiling : " + index);
     }
 
     static int BinarySearch(int arr[], int key) {
