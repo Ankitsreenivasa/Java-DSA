@@ -1,4 +1,5 @@
 package Arrays;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -27,20 +28,20 @@ public class InputOutput01 {
         System.out.println(Arrays.toString(arr));
 
         System.out.println("---2D Array---");
-        int arr2D[][]=new int[3][3];
-        System.out.println("No of rows :"+arr2D.length);
+        int arr2D[][] = new int[3][3];
+        System.out.println("No of rows :" + arr2D.length);
 
-        //input
+        // input
         for (int row = 0; row < arr2D.length; row++) {
             for (int col = 0; col < arr2D[row].length; col++) {
-                arr2D[row][col]=input.nextInt();
+                arr2D[row][col] = input.nextInt();
             }
         }
 
-        //output
+        // output
         for (int row = 0; row < arr2D.length; row++) {
             for (int col = 0; col < arr2D[row].length; col++) {
-                System.out.print(arr2D[row][col]+" ");
+                System.out.print(arr2D[row][col] + " ");
             }
             System.out.println();
         }
